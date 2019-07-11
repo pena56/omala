@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Omala - L.G.A</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .carousel {
+            height: 80vh;
+        }
+
+        @media (max-width: 740px) {
+
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #929FBA !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container-fluid">
+
+            <!-- Brand -->
+            <a class="navbar-brand h1-responsive" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+                <strong>Omala L.G.A </strong>
+            </a>
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Right -->
+                <ul class="navbar-nav nav-flex-icons ml-auto">
+                    <li class="nav-item">
+                        <a class="text-white nav-link mx-2 h5-responsive" href="">About
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="text-white nav-link mx-2 h5-responsive" id="categoryDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"> <span> History</span></a>
+                        <div id="navbar-background-color" class="dropdown-menu dropdown-primary"
+                            aria-labelledby="categoryDropdown">
+
+                            <a class="dropdown-item" href=""> <span>Cultural
+                                    History</span></a>
+                            <a class="dropdown-item" href=""> <span>Agricultural
+                                    History</span></a>
+                            <a class="dropdown-item" href=""> <span>Political
+                                    History</span></a>
+                            <a class="dropdown-item" href=""> <span>Religious
+                                    History</span></a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white nav-link mx-2 h5-responsive" href="">Government
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white nav-link mx-2 h5-responsive" href="">Events
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white nav-link mx-2 h5-responsive" href="">Contact Us
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <header>
+        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                <li data-target="#carousel-example-1z" data-slide-to="3"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <div class="view"
+                        style="background-image: url('img/slide1.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+                        <!-- Mask & flexbox options-->
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                            <!-- Content -->
+                            <div class="text-center white-text mx-5 wow fadeIn">
+                                <h1 class="mb-4">
+                                    <strong>Welcome to Omala</strong>
+                                </h1>
+
+                                <p>
+                                    <strong>Local Government in Kogi State</strong>
+                                </p>
+
+                                <p class="mb-4 d-none d-md-block">
+                                    <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio quia maxime
+                                        dolor ipsa velit nesciunt neque. Ab minus nostrum debitis, ipsum numquam nihil
+                                        consequatur vel delectus. Dolorum quod voluptatibus cum.</strong>
+                                </p>
+                            </div>
+                            <!-- Content -->
+
+                        </div>
+                        <!-- Mask & flexbox options-->
+
+                    </div>
+                </div>
+                <!--/First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+                    <div class="view"
+                        style="background-image: url('img/slide2.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+                        <!-- Mask & flexbox options-->
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                            <!-- Content -->
+                            <div class="text-center white-text mx-5 wow fadeIn">
+                                <h1 class="mb-4">
+                                    <strong>Check out Our Gallery that displays our Rich Cultural Heritage</strong>
+                                </h1>
+
+                                <a target="_blank" href="" class="btn btn-outline-white btn-lg">Events Gallery
+                                    <i class="fas fa-graduation-cap ml-2"></i>
+                                </a>
+                            </div>
+                            <!-- Content -->
+
+                        </div>
+                        <!-- Mask & flexbox options-->
+
+                    </div>
+                </div>
+                <!--/Second slide-->
+
+                <!--Third slide-->
+                <div class="carousel-item">
+                    <div class="view"
+                        style="background-image: url('img/slide3.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+                        <!-- Mask & flexbox options-->
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                            <!-- Content -->
+                            <div class="text-center white-text mx-5 wow fadeIn">
+                                <h1 class="mb-4">
+                                    <strong>See the Leaders</strong>
+                                </h1>
+
+                                <p>
+                                    <strong>Driving Innovation in Omala</strong>
+                                </p>
+
+                                <p class="mb-4 d-none d-md-block">
+                                    <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae dolore,
+                                        corporis perspiciatis cumque itaque debitis totam libero accusamus odit harum
+                                        dolores, nam ut rerum tempora? Debitis repudiandae perferendis quod id.</strong>
+                                </p>
+
+                                <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/"
+                                    class="btn btn-outline-white btn-lg">Government
+                                    <i class="fas fa-graduation-cap ml-2"></i>
+                                </a>
+                            </div>
+                            <!-- Content -->
+
+                        </div>
+                        <!-- Mask & flexbox options-->
+
+                    </div>
+                </div>
+                <!--/Third slide-->
+
+                <!-- Fourth Slide -->
+                <div class="carousel-item">
+                    <div class="view"
+                        style="background-image: url('img/slide4.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+                        <!-- Mask & flexbox options-->
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                            <!-- Content -->
+                            <div class="text-center white-text mx-5 wow fadeIn">
+                                <h1 class="mb-4">
+                                    <strong>See the Leaders</strong>
+                                </h1>
+
+                                <p>
+                                    <strong>Driving Innovation in Omala</strong>
+                                </p>
+
+
+                                <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/"
+                                    class="btn btn-outline-white btn-lg">Government
+                                    <i class="fas fa-graduation-cap ml-2"></i>
+                                </a>
+                            </div>
+                            <!-- Content -->
+
+                        </div>
+                        <!-- Mask & flexbox options-->
+
+                    </div>
+                </div>
+                <!-- End Slide -->
+            </div>
+            <!--/.Slides-->
+
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="mt-5 wow fadeIn">
+                <h2 class="text-center h1-responsive">Latest News</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card primary-color-dark">
+                            <div class="view">
+                                <img src="img/news1.jpg" class="card-img-top" alt="photo">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body text-center">
+                                <!--Title-->
+                                <h4 class="card-title white-text">Title of the news</h4>
+                                <!--Text-->
+                                <p class="card-text white-text">Sed ut perspiciatis unde omnis iste natus error sit
+                                    ipsam voluptatem quia
+                                    voluptas.</p>
+                                <a href="#" class="btn btn-outline-white btn-md waves-effect">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card primary-color-dark">
+                            <div class="view">
+                                <img src="img/news2.jpg" class="card-img-top" alt="photo">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body text-center">
+                                <!--Title-->
+                                <h4 class="card-title white-text">Title of the news</h4>
+                                <!--Text-->
+                                <p class="card-text white-text">Sed ut perspiciatis unde omnis iste natus error sit
+                                    ipsam voluptatem quia
+                                    voluptas.</p>
+                                <a href="#" class="btn btn-outline-white btn-md waves-effect">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card primary-color-dark">
+                            <div class="view">
+                                <img src="img/slide4.jpg" class="card-img-top" alt="photo">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body text-center">
+                                <!--Title-->
+                                <h4 class="card-title white-text">Title of the news</h4>
+                                <!--Text-->
+                                <p class="card-text white-text">Sed ut perspiciatis unde omnis iste natus error sit
+                                    ipsam voluptatem quia
+                                    voluptas.</p>
+                                <a href="#" class="btn btn-outline-white btn-md waves-effect">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <a href="" class="btn btn-outline-primary btn-lg">See All News
+                        <i class="fas fa-graduation-cap ml-2"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <div class="section-background">
+            <div class="container">
+                <section class="mt-3 wow fade-in">
+                    <h2 class="text-center pt-3">Projects</h2>
+                    <hr>
+                    <div class="row pb-5">
+                        <div class="row">
+                            <div class="col-md-6 mt-2 mb-2">
+                                <a href="">
+                                    <div class="view overlay zoom ">
+                                        <img src="img/news3.jpg" class="img-fluid z-depth-4 rounded" alt="placeholder">
+                                        <div class="mask flex-center waves-effect waves-light rgba-blue-light">
+                                            <p id="header-font" class="white-text h5">Project Name</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mt-2 mb-2">
+                                    <a href="">
+                                        <div class="view overlay zoom ">
+                                            <img src="img/news1.jpg" class="img-fluid z-depth-4 rounded"
+                                                alt="placeholder">
+                                            <div class="mask flex-center waves-effect waves-light rgba-blue-light">
+                                                <p id="header-font" class="white-text h5">Project Name</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class=" mt-2 mb-2">
+                                    <a href="">
+                                        <div class="view overlay zoom ">
+                                            <img src="img/slide3.jpg" class="img-fluid z-depth-4 rounded"
+                                                alt="placeholder">
+                                            <div class="mask flex-center waves-effect waves-light rgba-blue-light">
+                                                <p id="header-font" class="white-text h5">Project Name</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-2 mb-2">
+                            <a href="">
+                                <div class="view overlay zoom ">
+                                    <img src="img/slide1.jpg" class="img-fluid z-depth-4 rounded" alt="placeholder">
+                                    <div class="mask flex-center waves-effect waves-light rgba-blue-light">
+                                        <p id="header-font" class="white-text h5">Project Name</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mt-2 mb-2">
+                            <a href="">
+                                <div class="view overlay zoom ">
+                                    <img src="img/news2.jpg" class="img-fluid z-depth-4 rounded" alt="placeholder">
+                                    <div class="mask flex-center waves-effect waves-light rgba-blue-light">
+                                        <p id="header-font" class="white-text h5">Project Name</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mt-2 mb-2">
+                            <a href="">
+                                <div class="view overlay zoom ">
+                                    <img src="img/slide2.jpg" class="img-fluid z-depth-4 rounded" alt="placeholder">
+                                    <div class="mask flex-center waves-effect waves-light rgba-blue-light">
+                                        <p id="header-font" class="white-text h5">Project Name</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="container">
+                <section class="mt-3 wow fade-in">
+                    <h2 class="text-center pt-3">About Omala</h2>
+                    <hr>
+                    <div class="row">
+                        <!--Google map-->
+                        <div id="map-container-google-2" class="map-container">
+                            <iframe width="600" height="450" frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAxXbeez2TxARd_PDF249xB0&key=AIzaSyDyxOQfKNB_F4Qja-zDCNgtaWT97A35Vmg"
+                                allowfullscreen></iframe>
+                        </div>
+                        <!--Google Maps-->
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small  pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Footer Content</h5>
+                    <p>Here you can use rows and columns to organize your footer content.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> omala.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+</body>
+
+</html>
